@@ -1,0 +1,33 @@
+body {
+    background-image: url("https://2w9mm048jnls3zg603jgd71e-wpengine.netdna-ssl.com/wp-content/uploads/2018/06/accounting-for-startups-1.jpeg");
+}
+
+form {
+    border: solid black 2px;
+    padding: 20px;
+    background-color: cadetblue;
+    width: 60%;
+}
+
+thead {
+    background-color: cadetblue;
+}
+
+table {
+    border: solid black 2px;
+}
+
+.total {
+    background-color: teal;
+    padding: 10px;
+    width: 60%;
+}
+
+.table-striped>tbody>tr:nth-child(odd)>td {
+   background-color: white;
+ }
+
+ .table-striped>tbody>tr:nth-child(even)>td {
+    background-color: cadetblue;
+    color: white;
+  }
